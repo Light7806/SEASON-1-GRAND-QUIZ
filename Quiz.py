@@ -1,6 +1,5 @@
 import streamlit as st
 import time
-
 def main():
     # Page Configuration
     st.set_page_config(
