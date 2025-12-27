@@ -165,7 +165,6 @@ def main():
 
         if percentage == 100:
             st.success("🏆 LEGENDARY! Perfect Score. You have mastered Season 1.")
-            st.markdown("### 👉 You are fully prepared for Season 2: AI & Machine Learning.")
         elif percentage >= 65:
             st.success("✅ PASSED! You have a solid foundation🗿.")
         else:
