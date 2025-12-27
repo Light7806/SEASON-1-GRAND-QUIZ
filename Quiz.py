@@ -166,12 +166,11 @@ def main():
         if percentage == 100:
             st.success("🏆 LEGENDARY! Perfect Score. You have mastered Season 1.")
             st.markdown("### 👉 You are fully prepared for Season 2: AI & Machine Learning.")
-        elif percentage >= 70:
+        elif percentage >= 60:
             st.success("✅ PASSED! You have a solid foundation.")
-            st.write("You are ready for Season 2, but keep practicing.")
         else:
-            st.error("❌ FAILED. You need more practice.")
-            st.write("It is recommended to re-watch the episodes before moving to AI/ML.")
+            st.error("❌ FAILED🥲. You need more practice.")
+            st.write("It is recommended to re-watch 👀😈🤧")
 
         # Show Answer Key (Optional - expands if clicked)
         with st.expander("View Correct Answers"):
