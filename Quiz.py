@@ -11,12 +11,12 @@ def main():
 
     # --- HEADER SECTION ---
     st.title("🐍 Season 1: The Opening")
-    st.caption("Final Exam | Episodes 1 - 5")
+    st.caption("Final Exam")
     st.markdown("""
     **Instructions:**
     * There are **18 Questions** covering the entire season.
     * Topics: Basics, NumPy, Pandas, Matplotlib, OOPs, and File Handling.
-    * You need **70%** to pass and unlock Season 2.
+    * You need **65%** to pass the exam.
     """)
     st.markdown("---")
 
@@ -166,8 +166,8 @@ def main():
         if percentage == 100:
             st.success("🏆 LEGENDARY! Perfect Score. You have mastered Season 1.")
             st.markdown("### 👉 You are fully prepared for Season 2: AI & Machine Learning.")
-        elif percentage >= 60:
-            st.success("✅ PASSED! You have a solid foundation.")
+        elif percentage >= 65:
+            st.success("✅ PASSED! You have a solid foundation🗿.")
         else:
             st.error("❌ FAILED🥲. You need more practice.")
             st.write("It is recommended to re-watch 👀😈🤧")
